@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #0c7cba;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  height: 5vh;
+}
+
+.hamburger-menu {
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+}
+.head {
+  margin: 0 auto;
+}

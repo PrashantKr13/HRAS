@@ -1,0 +1,38 @@
+.landingPage {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 150px;
+}
+
+.landingPage > div {
+  background-color: grey;
+  border-radius: 50px;
+  height: 280px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.landingPage > div:hover {
+  cursor: pointer;
+  background: rgb(101, 90, 90);
+}
+
+.landingPage > div > p {
+  color: white;
+  font-size: larger;
+  margin-top: 10px;
+}
+
+.individualRoom,
+.roomWithFriends {
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: 150px;
+}

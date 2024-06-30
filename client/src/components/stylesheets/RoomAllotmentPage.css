@@ -1,0 +1,41 @@
+.RoomAllotmentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    margin: 2rem;
+    border-radius: 2rem;
+    background-color: #dbdbdb;
+}
+.RoomAllotmentContainer>h3{
+    margin: 0.2rem 1rem;
+}
+
+.roomTypes{
+    display: flex;
+    flex-direction: column;
+}
+
+.roomTypes>label{
+    background-color: white;
+    margin:1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1rem;
+    border-radius: 1rem;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+form>button{
+    background-color: #0a7cba;
+    color: white;
+    border: none;
+    padding: 0.7rem 2rem;
+    border-radius: 1rem;
+    align-self: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+
