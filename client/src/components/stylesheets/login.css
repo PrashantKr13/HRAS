@@ -34,7 +34,7 @@
 }
 
 .login-input {
-  width: 100%;
+  width: -webkit-fill-available;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
@@ -48,7 +48,7 @@
 
 .password-toggle-btn {
   position: absolute;
-  top: 50%;
+  top: 40%;
   right: 10px;
   transform: translateY(-50%);
   background-color: transparent;
